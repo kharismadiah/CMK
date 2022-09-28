@@ -1,0 +1,162 @@
+.headerTitle {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+  position: relative;
+}
+.headerBoxSortFilter {
+  position: absolute;
+  display: flex;
+  right: 0;
+  top: 0;
+}
+.headerIconFilter {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.headerIconSort {
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.filter {
+  width: 95%;
+  text-align: right;
+  cursor: pointer;
+}
+.ListRowBoxContent {
+  display: flex;
+  flex-direction: column;
+}
+.ListRowBoxHeader {
+  display: flex;
+  flex-direction: row;
+}
+.ListRowBoxIcon {
+  cursor: pointer;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ListRowBoxContentMiddle {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.ListRowBoxContentLeft {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ListRowBoxFlagIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 10px 10px 10px;
+}
+.ListRowBoxContentRight {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+.boxInfoRow {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.ListRowBoxIconDetail {
+  width: 50px;
+  height: 30px;
+  border-left: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.boxEmailSend {
+  position: absolute;
+  right: 50px;
+  top: 0;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.ListRowBoxList {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e9e9e9;
+  display: flex;
+}
+.ListRowBoxImage {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ListRowBoxInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  margin: 0 10px;
+}
+.ListRowSplit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.detailIconLeftRight {
+  font-size: 40px;
+}
+.divCenter {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.send-container {
+  & svg path {
+    stroke: rgb(89, 89, 89);
+  }
+
+  &:hover {
+    & svg path {
+      stroke: #4482ff;
+    }
+  }
+}
+.modal-datepicker {
+   width: 92%
+}
+.text-center {
+    text-align: center;
+}
+.mt-2 {
+    margin-top: 4rem !important;
+}
+.textRight{
+  text-align: right;
+}
+
+.ant-calendar-input-wrap {
+  display: none;
+}

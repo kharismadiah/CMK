@@ -1,0 +1,6 @@
+export const SET_LOADER = "SET_LOADER"
+
+//
+export const GET_DATA_INIT = 'GET_DATA_INIT'
+export const GET_DATA_INIT_SUCCESS = 'GET_DATA_INIT_SUCCESS'
+export const HANDLE_STATE_DEMO = 'HANDLE_STATE_DEMO'

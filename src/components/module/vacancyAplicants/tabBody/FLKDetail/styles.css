@@ -1,0 +1,8 @@
+.rpv-core__viewer.rpv-core__viewer--light > div > div {
+    display: flex;
+    overflow: hidden !important;
+}
+
+.rpv-core__inner-page {
+    padding: 0 !important;
+}

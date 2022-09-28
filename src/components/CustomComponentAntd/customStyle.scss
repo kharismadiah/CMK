@@ -1,0 +1,88 @@
+
+
+.DrawerVacancyListBox{
+    min-height: 80px;
+    width: 150px;
+    border: 1px solid #e9e9e9;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.DrawerFooter{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e9e9e9;
+    padding: 10px 16px;
+    background-color: #fff;
+    text-align: right;
+}
+.DrawerVacancyListBorderHR{
+    border-top: 1px solid #e8e8e8;
+    margin: 20px 0;
+}
+.drawerSeeMore{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.DrawerSortHeader{
+    display: flex;
+}
+.DrawerSortBoxIcon{
+    margin: 5px;
+    cursor: pointer;
+}
+.DrawerSortHeaderTitle{
+    margin-left: 10px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.DrawerFilterBoxPengalaman{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.DrawerFilterBoxButtonPengalaman{
+    display: flex;
+    margin: 0 5px;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+}
+
+.ql-picker-options{
+    line-height: 20px;
+}
+
+.ql-snow{
+    line-height: 0;
+}
+
+.ql-editor table tbody td {
+  border: 1px solid black;
+}
+
+@media only screen and (max-width : 575px){
+    .inputAntd{
+        width: 100%
+    }
+}
+
+@media only screen and (min-width : 576px){
+    .inputAntd{
+        width: 170%
+    }
+}

@@ -1,0 +1,31 @@
+.InputContainer {
+    .ant-form-item {
+        margin-bottom: 8px;
+    }
+}
+
+.InputWrapper {
+    width: 100%;
+    input,
+    ant-input {
+        width: 100%;
+    }
+}
+
+.InputHelper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.CustomInputClearable {
+    .ant-input-suffix {
+        display: none;
+    }
+    .ant-form-item-control:hover {
+        .ant-input-suffix {
+            right: 26px;
+            display: block;
+        }
+    }
+}

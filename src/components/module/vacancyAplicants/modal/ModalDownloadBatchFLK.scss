@@ -1,0 +1,12 @@
+.modal-footer{
+    position: unset !important;
+}
+
+.body-wrapper{
+    display: flex;
+    flex-direction: row;
+
+    .body-content{
+        padding-left: 20px;
+    }
+}
